@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Project</title>
+    <style>
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color:#032d54;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+      <h1>Bixy</h1>
+        <div class="buttons">
+        <ul>
+            <li><a href="default.php" style="color:#c3d9de; margin: 10px; text-decoration: none;">About</a></li>
+            <li><a href="tariff.php" style="color:#c3d9de; margin: 10px; text-decoration: none;"">Tariff</a></li>
+            <li><a href="contact.php" style="color:#c3d9de; margin: 10px; text-decoration: none;"">Contact</a></li>
+            <li><a href="about.php" style="color:#c3d9de; margin: 10px; text-decoration: none;"">Home</a></li>
+            <li><a href="login.php" style="color:#c3d9de; margin: 10px; text-decoration: none;"">Login</a></li>
+          </ul>
+        </div>
+    </div>
+
+
+</body>
+</html>
